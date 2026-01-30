@@ -11,22 +11,7 @@ export default function Footer() {
                 <p><em>"Adaptive Cleaning Strategies in Autonomous ML Pipelines"</em> - ML Architecture Review</p>
             </div>
 
-            <style jsx>{`
-        .footer { 
-          margin: 5rem 2rem 2rem; 
-          padding: 3rem; 
-          display: flex; 
-          justify-content: space-between; 
-          align-items: flex-start;
-          border-radius: 32px;
-        }
-        .meta-info p { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
-        .version { font-family: 'Fira Code', monospace; font-weight: 600; color: #10b981 !important; }
-        
-        .citations h4 { font-size: 0.75rem; text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.1em; color: var(--text-secondary); }
-        .citations p { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
-        .citations em { color: var(--text-primary); }
-      `}</style>
+            
         </footer>
     );
 }

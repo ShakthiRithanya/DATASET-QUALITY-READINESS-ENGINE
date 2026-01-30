@@ -24,15 +24,7 @@ export default function UsageGuide() {
                 ))}
             </div>
 
-            <style jsx>{`
-        .usage-guide { padding: 2.5rem; width: 100%; max-width: 800px; margin: 2rem auto; }
-        .usage-guide h3 { margin-bottom: 2rem; font-size: 1.1rem; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.1em; }
-        .steps-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
-        .step-card { display: flex; gap: 1rem; align-items: flex-start; }
-        .step-icon { color: #3b82f6; background: #eff6ff; padding: 0.75rem; border-radius: 12px; }
-        .step-content h4 { font-size: 1rem; margin-bottom: 0.4rem; }
-        .step-content p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
-      `}</style>
+            
         </div>
     );
 }

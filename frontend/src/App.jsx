@@ -89,41 +89,7 @@ function App() {
       <Footer />
       <AdvancedSettings />
 
-      <style jsx>{`
-        .app-root { min-height: 100vh; }
-        .main-content { padding-top: 120px; padding-bottom: 5rem; z-index: 10; position: relative; }
-        .landing-view { text-align: center; max-width: 800px; margin: 0 auto; padding: 2rem; }
-        .hero { margin-bottom: 3rem; }
-        .hero h1 { font-size: 4rem; font-weight: 800; margin-bottom: 1rem; }
-        .hero p { font-size: 1.25rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.6; }
-        
-        .results-view { display: flex; flex-direction: column; gap: 2rem; align-items: center; }
-        .details-grid { 
-          display: grid; 
-          grid-template-columns: 1fr 1fr; 
-          gap: 2rem; 
-          width: 100%; 
-          max-width: 1200px; 
-          padding: 0 2rem;
-        }
-        
-        .reset-btn {
-          margin-top: 3rem;
-          background: rgba(0,0,0,0.05);
-          border: 1px solid rgba(0,0,0,0.1);
-          padding: 0.75rem 2rem;
-          border-radius: 100px;
-          font-family: inherit;
-          font-weight: 600;
-          cursor: pointer;
-          transition: all 0.2s;
-        }
-        .reset-btn:hover { background: rgba(0,0,0,0.1); }
 
-        @media (max-width: 1024px) {
-          .details-grid { grid-template-columns: 1fr; }
-        }
-      `}</style>
     </div>
   );
 }

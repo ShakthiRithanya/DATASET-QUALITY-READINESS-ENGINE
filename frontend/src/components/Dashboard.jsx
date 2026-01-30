@@ -88,67 +88,7 @@ export default function Dashboard({ data, originalFile, targetCol }) {
                 />
             </div>
 
-            <style jsx>{`
-        .dashboard {
-          padding: 2rem;
-          max-width: 1200px;
-          margin: 0 auto;
-          display: flex;
-          flex-direction: column;
-          gap: 2rem;
-        }
-        .summary-banner {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 2.5rem;
-        }
-        .dqi-left { display: flex; align-items: center; gap: 3rem; }
-        .export-action-btn {
-          display: flex;
-          align-items: center;
-          gap: 0.75rem;
-          background: #334155;
-          color: white;
-          border: none;
-          padding: 1rem 1.5rem;
-          border-radius: 12px;
-          font-weight: 600;
-          font-family: inherit;
-          cursor: pointer;
-          transition: transform 0.2s, background 0.2s;
-        }
-        .export-action-btn:hover { background: #1e293b; transform: translateY(-2px); }
-        .dqi-score {
-          position: relative;
-          width: 150px;
-          height: 150px;
-        }
-        .score-text {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-        }
-        .score-text h2 { font-size: 2.5rem; line-height: 1; margin-bottom: 0.2rem; }
-        .score-text span { font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); }
-        .status-badge {
-          display: flex;
-          align-items: center;
-          gap: 0.75rem;
-          background: #d1fae5;
-          color: #065f46;
-          padding: 0.75rem 1.5rem;
-          border-radius: 100px;
-          font-weight: 600;
-        }
-        .metrics-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-          gap: 1.5rem;
-        }
-      `}</style>
+            
         </motion.div>
     );
 }

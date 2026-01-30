@@ -35,38 +35,7 @@ export default function ImpactView({ impact }) {
                 </div>
             )}
 
-            <style jsx>{`
-        .impact-view { padding: 2.5rem; display: flex; flex-direction: column; gap: 2rem; }
-        .impact-header { display: flex; align-items: center; gap: 0.75rem; }
-        .impact-stats { display: flex; gap: 1.5rem; }
-        .stat-box { 
-          flex: 1; padding: 1.5rem; background: rgba(0,0,0,0.02); 
-          border-radius: 16px; display: flex; flex-direction: column; gap: 0.5rem;
-        }
-        .stat-box.accent { background: #eff6ff; border: 1px solid #dbeafe; }
-        .stat-box label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); }
-        .stat-val { font-size: 1.5rem; font-weight: 700; color: #1e293b; }
-        
-        .delta-box { 
-          flex: 1; padding: 1.5rem; border-radius: 16px; 
-          display: flex; flex-direction: column; gap: 0.5rem;
-          color: white;
-        }
-        .delta-box.positive { background: #10b981; }
-        .delta-box.negative { background: #ef4444; }
-        .delta-val { font-size: 1.5rem; font-weight: 800; }
-
-        .alert-box {
-          background: #fff7ed;
-          border: 1px solid #fed7aa;
-          padding: 1rem;
-          border-radius: 12px;
-          display: flex;
-          gap: 0.75rem;
-          color: #9a3412;
-          font-size: 0.9rem;
-        }
-      `}</style>
+            
         </div>
     );
 }

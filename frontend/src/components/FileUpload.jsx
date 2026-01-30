@@ -91,57 +91,7 @@ export default function FileUpload({ onUpload }) {
                 </button>
             </div>
 
-            <style jsx>{`
-        .upload-container {
-          padding: 2.5rem;
-          width: 100%;
-          max-width: 600px;
-          margin: 0 auto;
-        }
-        .drop-area {
-          border: 2px dashed rgba(0, 0, 0, 0.05);
-          border-radius: 16px;
-          padding: 4rem 2rem;
-          text-align: center;
-          cursor: pointer;
-          transition: all 0.3s;
-        }
-        .drop-area:hover {
-          border-color: #3b82f6;
-          background: rgba(59, 130, 246, 0.02);
-        }
-        .drop-area.active {
-          border-style: solid;
-          border-color: #10b981;
-          background: rgba(16, 185, 129, 0.02);
-        }
-        .empty-state h3, .file-state h3 { margin-top: 1.5rem; }
-        .empty-state p, .file-state p { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem; }
-        .form-controls { margin-top: 2rem; display: flex; flex-direction: column; gap: 1.5rem; }
-        .input-group { display: flex; flex-direction: column; gap: 0.5rem; }
-        .input-group label { font-size: 0.85rem; font-weight: 500; color: var(--text-secondary); }
-        .input-group input { 
-          padding: 0.8rem 1rem; 
-          border-radius: 12px; 
-          border: 1px solid rgba(0, 0, 0, 0.1); 
-          background: white;
-          font-family: inherit;
-        }
-        .process-btn {
-          background: #334155;
-          color: white;
-          border: none;
-          padding: 1rem;
-          border-radius: 12px;
-          font-weight: 600;
-          cursor: pointer;
-          transition: background 0.2s;
-        }
-        .process-btn:hover { background: #1e293b; }
-        .process-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        .icon-blue { color: #3b82f6; }
-        .icon-mint { color: #10b981; }
-      `}</style>
+            
         </div>
     );
 }

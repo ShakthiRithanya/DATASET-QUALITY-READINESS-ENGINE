@@ -51,25 +51,7 @@ export default function CleaningStats({ stats }) {
                 ))}
             </div>
 
-            <style jsx>{`
-        .cleaning-stats { padding: 2.5rem; }
-        .stats-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 2rem; }
-        .stats-grid { display: flex; flex-direction: column; gap: 2rem; }
-        
-        .stat-row { display: grid; grid-template-columns: 150px 1fr 120px; align-items: center; gap: 2rem; }
-        .col-info h4 { font-size: 0.95rem; margin-bottom: 0.25rem; word-break: break-all; }
-        .col-info .sub { font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; }
-        
-        .comparison { display: flex; align-items: center; gap: 1rem; background: rgba(0,0,0,0.02); padding: 0.75rem 1.25rem; border-radius: 12px; }
-        .side { text-align: center; }
-        .side .val { font-weight: 700; font-size: 1.1rem; }
-        .side .null-tag { font-size: 0.65rem; color: var(--text-secondary); margin-top: 0.2rem; }
-        .arrow { color: var(--text-secondary); opacity: 0.5; }
-        
-        .diff-viz { position: relative; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden; }
-        .bar { position: absolute; height: 100%; top: 0; left: 0; }
-        .before-bar { background: #3b82f6; }
-      `}</style>
+            
         </div>
     );
 }

@@ -34,27 +34,7 @@ export default function DataIssueMap({ issueMap }) {
                 ))}
             </div>
 
-            <style jsx>{`
-        .issue-map { padding: 2.5rem; }
-        .map-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 2rem; }
-        .map-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
-        
-        .map-card { 
-          background: rgba(0,0,0,0.02); border-radius: 12px; padding: 1.25rem; 
-          border: 1px solid rgba(0,0,0,0.03); cursor: default;
-        }
-        .map-card.has-issue { background: #fff1f2; border-color: #fecdd3; }
-        
-        .card-top { display: flex; justify-content: space-between; margin-bottom: 0.75rem; }
-        .feat-type { font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 600; }
-        .issue-icon { color: #e11d48; }
-
-        h4 { font-size: 0.95rem; margin-bottom: 1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-        
-        .issue-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-        .issue-tag { font-size: 0.75rem; background: #fb7185; color: white; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600; }
-        .clean-tag { font-size: 0.75rem; color: #059669; font-weight: 600; }
-      `}</style>
+            
         </div>
     );
 }
